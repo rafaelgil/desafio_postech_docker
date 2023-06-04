@@ -1,0 +1,95 @@
+databaseChangeLog:
+  - changeSet:
+      id: 2
+      author: rafael
+      changes:
+        - insert:
+            tableName: LANGUAGE
+            columns:
+              - column:
+                  name: id
+                  value: 1
+              - column:
+                  name: name
+                  value: "Java"
+        - insert:
+            tableName: LANGUAGE
+            columns:
+              - column:
+                  name: id
+                  value: 2
+              - column:
+                  name: name
+                  value: "Go"
+        - insert:
+            tableName: LANGUAGE
+            columns:
+              - column:
+                  name: id
+                  value: 3
+              - column:
+                  name: name
+                  value: "Python"
+        - insert:
+            tableName: LANGUAGE
+            columns:
+              - column:
+                  name: id
+                  value: 4
+              - column:
+                  name: name
+                  value: "JavaScript"
+        - insert:
+            tableName: LANGUAGE
+            columns:
+              - column:
+                  name: id
+                  value: 5
+              - column:
+                  name: name
+                  value: "PHP"
+        - insert:
+            tableName: LANGUAGE
+            columns:
+              - column:
+                  name: id
+                  value: 6
+              - column:
+                  name: name
+                  value: "Objective-C"
+        - insert:
+            tableName: LANGUAGE
+            columns:
+              - column:
+                  name: id
+                  value: 7
+              - column:
+                  name: name
+                  value: "Delphi"
+        - insert:
+            tableName: LANGUAGE
+            columns:
+              - column:
+                  name: id
+                  value: 8
+              - column:
+                  name: name
+                  value: "C/C++"
+        - insert:
+            tableName: LANGUAGE
+            columns:
+              - column:
+                  name: id
+                  value: 9
+              - column:
+                  name: name
+                  value: "Kotlin"
+        - insert:
+            tableName: LANGUAGE
+            columns:
+              - column:
+                  name: id
+                  value: 10
+              - column:
+                  name: name
+                  value: "Rust"

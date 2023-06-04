@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://${database_url:localhost}:5432/languages
+    username: ${database_user:postgres}
+    password: ${database_password:postgres123}
+    driver-class-name: org.postgresql.Driver
